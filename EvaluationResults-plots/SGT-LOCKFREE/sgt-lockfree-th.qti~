@@ -1,0 +1,168 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+ProtocolName	30	3	29/09/16 10:59 AM
+geometry	-3	4	738	275	
+header	#threads[X]	SGT[Y]	LOCKFREE[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	protocol with diff measures	2
+<data>
+0	10	0.07	0.07
+1	20	0.14	0.13
+2	30	0.2	0.2
+3	40	0.26	0.24
+4	50	0.33	0.29
+5	60	0.38	0.34
+6	70	0.47	0.39
+7	80	0.54	0.42
+8	90	0.63	0.46
+9	100	0.68	0.53
+</data>
+</table>
+<table>
+allavgth	10	1	01/10/16 1:05 PM
+geometry	538	316	934	220	
+header	1[X]
+ColWidth	100	
+<com>
+</com>
+ColType	0;0/13
+ReadOnlyColumn	0
+HiddenColumn	0
+Comments		
+WindowLabel	/home/ajay/SGT-LOCKFREE/SGT-measurewisefile_msec/allavgth.txt	2
+<data>
+0	0.07
+1	0.14
+2	0.2
+3	0.26
+4	0.33
+5	0.38
+6	0.47
+7	0.54
+8	0.63
+9	0.68
+</data>
+</table>
+<table>
+Table1	10	1	01/10/16 1:05 PM
+geometry	915	0	710	220	
+header	1[X]
+ColWidth	100	
+<com>
+</com>
+ColType	0;0/13
+ReadOnlyColumn	0
+HiddenColumn	0
+Comments		
+WindowLabel	/home/ajay/SGT-LOCKFREE/lockfree-measurewisefile_msec/allavgth.txt	2
+<data>
+0	0.07
+1	0.13
+2	0.2
+3	0.24
+4	0.29
+5	0.34
+6	0.39
+7	0.42
+8	0.46
+9	0.53
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	01/10/16 1:06 PM
+geometry	363	130	527	467	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	509	404
+<PageGeometry>0.00963391	0.0119332	0.980732	0.9642</PageGeometry>
+PlotTitle	SGT lockfree TH	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	#threads	time(ms)		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#3c3c3c	#3c3c3c	#3c3c3c	#3c3c3c
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	ProtocolName_#threads	ProtocolName_LOCKFREE	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	ProtocolName_#threads	ProtocolName_SGT	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+scale	0	0	0.7	0	8	5	0	0
+scale	1	0	0.7	0	8	5	0	0
+scale	2	0	120	0	7	5	0	0
+scale	3	0	120	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>3.0075187969925</x>
+<y>0.67658862876254</y>
+<right>32.781954887218</right>
+<bottom>0.608695652173913</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

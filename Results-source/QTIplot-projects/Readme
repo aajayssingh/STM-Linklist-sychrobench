@@ -1,0 +1,6 @@
+>The Folder contains the performance analysis of of IITH STM (BTO, MVTO and SGT) against the synchrobench (Lazylist. lock coupling, set ESTM, lock free and sequential set).
+>The application under test is a set implemented via linked list with add, insert and lookup functions .
+>the update rate is 70 percent .
+> The analysis is done with X axis--> 10, 20 , 30, 40, 50 ....100 threads Vs Y axis time in milliseconds.
+> time is averaged over 150 runs for each thread warp(10, 20, ....100).
+> time measure includes calculating the average time of REAL TIME, CPU TIME, and PER THREAD TIME

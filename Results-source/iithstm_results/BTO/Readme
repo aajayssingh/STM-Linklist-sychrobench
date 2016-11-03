@@ -1,0 +1,10 @@
+>Each thread launches one transaction
+
+>Folder name is named as #run, which implies that number of threads the code was run with.
+
+>Each file in #run folder is named as per different measure methods adopted clock(). gettimeofday(), threadusage , cpu usage etc.
+and average would be taken over 150 approx runs of the program.
+out of these 150 runs we will remove outliers and then take average.
+
+_sec named folder has time measure in seconds.
+_ms named folder has time in ms

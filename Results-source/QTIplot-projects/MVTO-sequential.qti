@@ -1,0 +1,29 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	1
+<table>
+ProtocolName	30	3	29/09/16 10:59 AM
+geometry	-3	4	738	275	active
+header	#threads[X]	MVTO[Y]	SEQUENTIAL[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	protocol with diff measures	2
+<data>
+0	10	0.8	0.22
+1	20	1.99	0.43
+2	30	3.19	0.84
+3	40	4.11	0.94
+4	50	5.08	1.28
+5	60	5.97	1.26
+6	70	7.01	1.64
+7	80	9	1.54
+8	90	10.69	1.86
+9	100	12.78	2.03
+</data>
+</table>
+<open>1</open>

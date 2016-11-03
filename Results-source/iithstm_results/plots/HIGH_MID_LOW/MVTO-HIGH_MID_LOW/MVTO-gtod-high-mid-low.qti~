@@ -1,0 +1,195 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	5
+<table>
+ProtocolName	30	4	29/09/16 10:59 AM
+geometry	-3	4	738	404	
+header	#threads[X]	high[Y]	low[Y]	med[Y]
+ColWidth	100	100	100	73	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel	protocol with diff measures	2
+<data>
+0	10	0.62	0.53	0.43
+1	20	3.45	2.35	2.23
+2	30	9.94	6.95	7.3
+3	40	18.07	17.87	22.97
+4	50	41.92	43.68	40.17
+5	60	58.32	52.53	45.63
+6	70	66.65	78.38	66.56
+7	80	87.39	91.73	85.44
+8	90	108.93	114.54	109.35
+9	100	120.39	108.84	118.64
+</data>
+</table>
+<table>
+allavggtod	10	1	29/09/16 9:32 PM
+geometry	0	408	510	220	
+header	1[X]
+ColWidth	100	
+<com>
+</com>
+ColType	0;0/13
+ReadOnlyColumn	0
+HiddenColumn	0
+Comments		
+WindowLabel	/home/ajay/MVTO-HIGH_MID_LOW/high-measurewisefile_msec/allavggtod.txt	2
+<data>
+0	0.62
+1	3.45
+2	9.94
+3	18.07
+4	41.92
+5	58.32
+6	66.65
+7	87.39
+8	108.93
+9	120.39
+</data>
+</table>
+<table>
+Table1	10	1	29/09/16 9:32 PM
+geometry	1071	460	564	220	
+header	1[X]
+ColWidth	100	
+<com>
+</com>
+ColType	0;0/13
+ReadOnlyColumn	0
+HiddenColumn	0
+Comments		
+WindowLabel	/home/ajay/MVTO-HIGH_MID_LOW/med-measurewisefile_msec/allavggtod.txt	2
+<data>
+0	0.43
+1	2.23
+2	7.3
+3	22.97
+4	40.17
+5	45.63
+6	66.56
+7	85.44
+8	109.35
+9	118.64
+</data>
+</table>
+<table>
+Table2	10	1	29/09/16 9:32 PM
+geometry	445	460	603	220	
+header	1[X]
+ColWidth	100	
+<com>
+</com>
+ColType	0;0/13
+ReadOnlyColumn	0
+HiddenColumn	0
+Comments		
+WindowLabel	/home/ajay/MVTO-HIGH_MID_LOW/low-measurewisefile_msec/allavggtod.txt	2
+<data>
+0	0.53
+1	2.35
+2	6.95
+3	17.87
+4	43.68
+5	52.53
+6	78.38
+7	91.73
+8	114.54
+9	108.84
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	29/09/16 9:33 PM
+geometry	735	0	537	467	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	519	404
+<PageGeometry>0.0094518	0.0119332	0.981096	0.9642</PageGeometry>
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#3c3c3c	#3c3c3c	#3c3c3c	#3c3c3c
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	ProtocolName_#threads	ProtocolName_med	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	ProtocolName_#threads	ProtocolName_low	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	ProtocolName_#threads	ProtocolName_high	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+scale	0	-20	140	0	9	5	0	0
+scale	1	-20	140	0	9	5	0	0
+scale	2	0	120	0	7	5	0	0
+scale	3	0	120	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>3.0075187969925</x>
+<y>134.64882943144</y>
+<right>32.781954887218</right>
+<bottom>119.130434782609</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

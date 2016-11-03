@@ -1,0 +1,2 @@
+to execute the code :
+run > g++ -std=c++11 LinkedListIITHLib.cpp -o IITH-SET -ltbb -lpthread
