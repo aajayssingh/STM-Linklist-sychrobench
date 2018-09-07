@@ -2,11 +2,13 @@
 The work uses IITH STM lib (in house STM library developed at IIT Hyderabad) and implements a set application (based on list) to test the performance of state of art concurrency protocols with the various concurrency mechanism in Synchrobench.
 
 State of art concurrency control protocols used in IITH STM:
+
                   + 2 Phase locking
                   + Serialization Graph testing
                   + Multiversion concurency control
 
 The concurrent Set (list based) application was evaluated against the concurrent list based data structures of Synchrobench:
+
                   + lazy-list
                   + lock-free list
                   + lock-coupling list
